@@ -163,18 +163,18 @@ text-align: left;
 
 } 
 
-/* Features Section */
+/* services Section */
 
-#features {
+#services {
   position: relative;
 }
 
-.feature-title {
+.services-title {
   font-size: 1.5rem;
   margin-top: 30px;
 }
 
-.feature-box {
+.services-box {
   padding: 4.5%;
 
 }
@@ -192,9 +192,9 @@ text-align: left;
 
 
 
-/* Pricing Section */
+/* Projects Section */
 
-#pricing {
+#projects {
   padding: 100px;
 }
 
