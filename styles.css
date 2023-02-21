@@ -198,6 +198,10 @@ text-align: left;
   padding: 100px;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 .price-text {
   font-size: 3rem;
   line-height: 1.5;
