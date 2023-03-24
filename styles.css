@@ -103,10 +103,13 @@ p {
 
 .social-icons a{
  color: #CB8026;
- margin-top: 50px;
+ 
 
 } 
 
+.social-icons {
+ margin-top: 20px;
+} 
 
 #title .container-fluid {
   padding: 3% 15% 7%;
