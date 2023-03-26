@@ -98,13 +98,8 @@ p {
   color: #fff;
   text-align: left;
   height:100vh;
-
-  
- 
-  
    
 }
-
 
 .social-icons a{
  color: #CB8026;
@@ -116,7 +111,6 @@ p {
 .social-icons {
  margin-top: 20px;
 } 
-
 
 #title .container-fluid {
   padding: 3% 15% 7%;
@@ -132,7 +126,7 @@ padding-top:5px;
 
 .about {
 display: grid;
-
+grid-template-columns: 
 align-items: left;
 gap: 1.5rem;
 }
@@ -149,7 +143,7 @@ position: absolute;
 
 
 .about-text {
-font-size: var(--h2-font); 
+font-size: var(--h2-font) 
 line-height: 1;
 
 }
@@ -210,7 +204,7 @@ text-align: left;
 #projects {
   padding: 100px;
 }
- 
+
 a {
   text-decoration: none !important;
 }
@@ -255,7 +249,7 @@ div.email.details {
 
 
 .container{
-  width: 100%;
+  width: 85%;
   background: #fff;
   border-radius: 6px;
   padding: 20px 60px 30px 40px;
@@ -319,11 +313,6 @@ div.email.details {
   margin: 12px 0;
 }
 
-iframe {
-height: 500px;
-  width: 100%;
-  margin: 12px 0;
-}
 
 
 .right-side .input-box input,
@@ -344,11 +333,20 @@ height: 500px;
 .right-side .input-box textarea{
   padding-top: 6px;
 }
+
+iframe {
+height: 500px;
+  width: 100%;
+  margin: 12px 0;
+}
+
+
+
 .right-side .button{
   display: inline-block;
   margin-top: 12px;
 }
-.right-side .button input[type="button"]{
+.right-side .button input[type="submit"]{
   color: #fff;
   font-size: 18px;
   outline: none;
@@ -359,7 +357,7 @@ height: 500px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.button input[type="button"]:hover{
+.button input[type="submit"]:hover{
   background: #CB8026;
 }
 
@@ -422,3 +420,4 @@ height: 500px;
 }
     
   }
+}
