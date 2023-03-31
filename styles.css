@@ -224,10 +224,12 @@ p.card-text {
 
 
 /* Footer Section */
+.social-icon a {
+  color: #000;
+} 
 
 
-.social-icon a{
-  color: #fff;
+.social-icon {
   margin: 20px 10px;
 }
 
