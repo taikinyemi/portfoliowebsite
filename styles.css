@@ -226,7 +226,7 @@ p.card-text {
 /* Footer Section */
 
 
-.social-icon {
+.social-icon a{
   margin: 20px 10px;
 }
 
