@@ -234,7 +234,7 @@ nav .container .nav-toggle{
 } 
 
 .nav-background{
-  background: #fff;
+  background-color: #fff;
 }
 
 @media screen and (max-width:750px) {
