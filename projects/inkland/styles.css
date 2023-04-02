@@ -202,6 +202,7 @@ footer {
     height: 0;
     overflow: hidden; 
     transition: 0.7s;
+    background-color: white;
   }
   
   .nav-links li {
@@ -221,6 +222,7 @@ footer {
 .nav-links {
   order: 1;
   padding-top: 1em;
+  padding-left: 1em;
 }
 
 nav .container .menu-btn {
